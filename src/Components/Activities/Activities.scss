@@ -1,9 +1,12 @@
+@use '../../styles/typography' as *;
+* {
+    font-family: proxima;
+}
 .activities-title{
     color: #15264C;
 font-family: Kapra;
-font-size: 25px;
+font-size: 34px;
 font-style: normal;
-// font-weight: 400;
 line-height: normal;
 text-transform: uppercase;
 margin: 43px 40px;
@@ -13,7 +16,6 @@ margin-bottom: 26px;
 .activities-subtitle{
     color: #1E1E1E;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -23,13 +25,12 @@ letter-spacing: -0.32px;
 
 .activities-img{
     margin: 16px 32px;
-    height: 324px;
+    height: 314px;
 }
 
 .activities-paragraph{
     color: #000;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -42,7 +43,6 @@ margin: 16px 62px;
 .activities-paragraph2{
     color: #1E1E1E;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
@@ -54,7 +54,7 @@ text-transform: uppercase;
 
 .activities-img2{
     margin: 16px;
-    height: 186px;
+    height: 179px;
     margin-bottom: 0;
 
 }
@@ -62,7 +62,6 @@ text-transform: uppercase;
 .activities-paragraph3{
     color: #1E1E1E;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 15px;
 font-style: normal;
 font-weight: 600;
@@ -74,13 +73,12 @@ text-transform: uppercase;
 .activities-img3{
     margin: 16px;
     margin-bottom: 0;
-    height: 191px;
+    height: 183px;
 }
 
 .activities-paragraph4{
     color: #000;
 text-align: center;
-font-family: Proxima Nova;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -92,7 +90,6 @@ margin: 16px 62px;
 
 .activities-button{
     color: #FFF;
-font-family: Inter;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -103,5 +100,5 @@ width: 173px;
 height: 46px;
 flex-shrink: 0;
 border: none;
-margin: 0 115px;
+margin: 10px 110px;
 }
