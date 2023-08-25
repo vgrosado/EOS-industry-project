@@ -54,7 +54,7 @@
 
   &__destination {
     color: #265CD4 ;
-    border: 1px solid #E8E9EA;;
+    border: 1px solid #BDBDBD;
     border-radius: .25rem;
     height: 25%;
     width: 100%;
@@ -63,7 +63,7 @@
 
   &__port {
     color: #265CD4 ;
-    border: 1px solid #E8E9EA;
+    border: 1px solid #BDBDBD;
     border-radius: .25rem;
     height: 25%;
     width: 100%;
@@ -73,7 +73,7 @@
   &__date {
     color: #265CD4 ;
     padding: 0rem 1rem;
-    border: 1px solid #E8E9EA;
+    border: 1px solid #BDBDBD;
     border-radius: .25rem;
     height: 25%;
     font-family: sans-serif;
@@ -86,8 +86,4 @@
     width: 50%;
     border: none;
   }
-}
-
-.footer{
-  
 }
