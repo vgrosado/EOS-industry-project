@@ -10,6 +10,7 @@ import chop from "../../../Assets/Chop.png";
 
 function DiningGallery() {
   return (
+    // <Modal isOpen={true} onClose={onClose}>
     <div>
       <div className="header-div">
         <p className="gallery-title">Dining Options</p>
@@ -56,6 +57,7 @@ function DiningGallery() {
         <p className="browse"> Browse All Onboard Dining</p>
       </div>
     </div>
+    // </Modal>
   );
 }
 

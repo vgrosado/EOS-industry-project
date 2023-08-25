@@ -1,3 +1,9 @@
+
+
+*{
+    font-family: sans-serif;
+}
+
 .text{
     color: black;
     font-size: small;
@@ -29,15 +35,18 @@
     flex-direction: column;
     margin: 1rem;
     justify-content: center;
+    align-items: center;
 
     &__section{
         display: flex;
-        width: 90%;
-        height: 2rem;
-        padding: 1rem 9.875rem 1rem 9.6875rem;
-        justify-content: center;
+        flex-direction: row;
+        width: 80%;
+        height: 3.8125rem;
+        padding: 0 2rem;
+        margin: 1rem;
+        justify-content: space-between;
         align-items: center;
-        gap: 7.0625rem;
+        color: black;
         flex-shrink: 0;
         border-radius: 0.1875rem;
         border: 1px solid #265CD4;
@@ -51,31 +60,37 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        white-space: nowrap; 
     }
 
     &__section{
         display: flex;
+        flex-direction: row;
         width: 80%;
         height: 3.8125rem;
-        padding: 1rem;
+        padding: 0 2rem;
         margin: 1rem;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        gap: 7.0625rem;
-        flex-shrink: 0;
         color: black;
+    }
+    &__arrow-icon{
+        position: relative;
+        left: 1rem;
     }
 
 
 
 
     &__book-butt{
-        width: 6.25rem;
+        width: 8    rem;
         display: inline-flex;
         padding: 1rem;
         justify-content: center;
         align-items: center;
+        border: none;
         border-radius: 0.1875rem;
         background: #FFB800;
+        margin: 1rem;
     }
 }

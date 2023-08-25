@@ -9,7 +9,7 @@ function HomePage() {
   let navigateTo = useNavigate();
 
   function handleNavigate() {
-    navigateTo("/ExplorePage");
+    navigateTo("/explore");
   }
   return (
     <section>
