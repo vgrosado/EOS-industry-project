@@ -2,6 +2,7 @@ import "../ExplorePage/ExplorePage.scss";
 import AboutShip from "../../Components/Header/AboutShip/AboutShip";
 import FeatureList from "../../Components/Header/FeatureList/FeatureList";
 import Info from "../../Components/Header/Info/Info";
+import { useState, useEffect } from "react";
 
 function ExplorePage() {
   return (
