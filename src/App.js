@@ -1,17 +1,21 @@
-import "./App.css";
-import DiningGallery from "./Components/Header/DiningGallery/DiningGallery";
-import ExcursionGallery from "./Components/Header/ExcursionsGallery/ExcursionsGallery";
-import FeatureList from "./Components/Header/FeatureList/FeatureList";
-import Header from "./Components/Header/Header";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './App.scss';
+import HomePage from './Pages/HomePage/HomePage';
+import Header from './Components/Header/Header';
+import ExplorePage from './Pages/ExplorePage/ExplorePage';
 
 function App() {
   return (
-    <>
-      {/* <Header/> */}
-      <FeatureList />
-      {/* <DiningGallery /> */}
-      {/* <ExcursionGallery /> */}
-    </>
+    <main className='App'>
+    <BrowserRouter>
+      <Header/>
+    <Routes>
+      <Route path='/' element={<HomePage/>}></Route>
+      <Route path='/Explore' element={<ExplorePage/>}></Route>
+    </Routes>
+    </BrowserRouter>
+    </main>
+    
   );
 }
 
