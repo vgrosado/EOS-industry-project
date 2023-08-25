@@ -1,6 +1,7 @@
 import "../ExplorePage/ExplorePage.scss";
 import AboutShip from "../../Components/Header/AboutShip/AboutShip";
 import FeatureList from "../../Components/Header/FeatureList/FeatureList";
+import Info from "../../Components/Header/Info/Info";
 
 function ExplorePage() {
   return (
@@ -36,6 +37,7 @@ function ExplorePage() {
       <div className="second-section">
         <FeatureList />
         <AboutShip />
+        <Info />
       </div>
     </section>
   );

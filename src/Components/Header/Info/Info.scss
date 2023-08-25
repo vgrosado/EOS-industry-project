@@ -1,0 +1,58 @@
+
+.info{
+    margin: 1rem;
+
+    &__title{
+        color: black;
+        margin-bottom: 1rem;
+    }
+
+    &__subtitle{
+        font-size: large;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    &__description{
+        font-size: medium;
+        margin-bottom: 1rem;
+
+    }
+    &__book-butt{
+        width: 8    rem;
+        display: inline-flex;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.1875rem;
+        border: none;
+        background: #FFB800;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        position: relative;
+        right: -7rem;
+    }
+    &__button{
+        background-color: white;
+        border: none;
+        color: #15264C;
+        font-size: 1.3rem;
+        text-decoration: underline .0625rem;
+    }
+    &__div{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__review{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    &__affirm{
+        width: 100%;
+        padding: 1rem;
+    }
+}
