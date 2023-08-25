@@ -2,6 +2,7 @@
     background-image: url("../../Assets/Images/hero.png");
     background-size: cover;
     height: 145vw;
+    margin-bottom: 2rem;
     
 
     &__hero {
@@ -64,4 +65,8 @@
         margin: 0;
     }
 
+}
+
+.second-section{
+    margin-top: 5rem;
 }

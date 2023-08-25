@@ -1,0 +1,47 @@
+.about{
+    
+
+    &__title{
+        padding-inline-start: 1rem;
+    }
+
+    &__ship{
+        margin: 1.5rem 0;
+    }
+
+    &__intro{
+        font-size: small;
+        margin: 0;
+
+    }
+    &__ship-info{
+
+        padding: 1rem;
+    }
+
+    &__ship-name{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    &__description{
+        padding: 2rem 0;
+        justify-content: center;
+    }
+
+    &__but-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 2rem;
+        border-bottom: 2px solid black;
+    }
+
+    &__button{
+        background-color: white;
+        border: none;
+        color: #15264C;
+        font-size: 1.3rem;
+        text-decoration: underline .0625rem;
+    }
+}

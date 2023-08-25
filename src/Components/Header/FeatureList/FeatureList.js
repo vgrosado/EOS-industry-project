@@ -2,6 +2,11 @@ import "./FeatureList.scss";
 import arrowDownBlue from "../../../Icons/ArrowBlue.svg";
 import eatIcon from "../../../Icons/eatBlue.svg";
 import video from "../../../Assets/explore-video.MP4";
+import blueDrink from "../../../Icons/drinkBlue.svg";
+import playIcon from "../../../Icons/happyBlue.svg";
+import sleepIcon from "../../../Icons/BedBlue..svg";
+import relax from "../../../Icons/happyBlue.svg";
+import kids from "../../../Icons/headBlue.svg";
 
 function FeatureList() {
   return (
@@ -19,8 +24,12 @@ function FeatureList() {
         <video className="video" src={video} autoPlay loop muted></video>
       </div>
 
-      <h2 className="title">What To expect</h2>
       <div className="Feature-div">
+        <h2 className="title">UP TO $650 OFF</h2>
+        <p className="description"> +30% OFF ALL CRUISES</p>
+        <p className="description"> +KIDS SALES FREE</p>
+        <button className="Feature-div__book-butt">BOOK NOW</button>
+        <h2 className="title">What To expect</h2>
         <div className="Feature-div__section">
           <img className="Feature-div__eat-icon" src={eatIcon} alt="" />
           <p className="Feature-div__subtitle"> Eat </p>
@@ -30,76 +39,52 @@ function FeatureList() {
             alt="arrow down"
           />
         </div>
-
-        {/* <div className="Feature-div__section">
+        <div className="Feature-div__section">
+          <img className="Feature-div__eat-icon" src={blueDrink} alt="" />
+          <p className="Feature-div__subtitle"> Drink </p>
           <img
-            className="Feature-div__drink-icon"
-            src={}
-            alt=""
-          />
-            <p className="Feature-div__feature">Drink</p>
-            <img
             className="Feature-div__arrow-icon"
-            src={}
-            alt=""
+            src={arrowDownBlue}
+            alt="arrow down"
           />
         </div>
         <div className="Feature-div__section">
+          <img className="Feature-div__eat-icon" src={playIcon} alt="" />
+          <p className="Feature-div__subtitle"> Play </p>
           <img
-            className="Feature-div__play-icon"
-            src={}
-            alt=""
-          />
-            <p className="Feature-div__feature">Play</p>
-            <img
             className="Feature-div__arrow-icon"
-            src={}
-            alt=""
+            src={arrowDownBlue}
+            alt="arrow down"
           />
         </div>
-      
         <div className="Feature-div__section">
+          <img className="Feature-div__eat-icon" src={sleepIcon} alt="" />
+          <p className="Feature-div__subtitle"> Sleep </p>
           <img
-            className="Feature-div__sleep-icon"
-            src={}
-            alt=""
-          />
-            <p className="Feature-div__feature">Sleep</p>
-            <img
             className="Feature-div__arrow-icon"
-            src={}
-            alt=""
+            src={arrowDownBlue}
+            alt="arrow down"
           />
         </div>
-        
         <div className="Feature-div__section">
+          <img className="Feature-div__eat-icon" src={relax} alt="" />
+          <p className="Feature-div__subtitle"> Relax </p>
           <img
-            className="Feature-div__relax-icon"
-            src={}
-            alt=""
-          />
-            <p className="Feature-div__feature">Relax</p>
-            <img
             className="Feature-div__arrow-icon"
-            src={}
-            alt=""
+            src={arrowDownBlue}
+            alt="arrow down"
           />
         </div>
-        
         <div className="Feature-div__section">
+          <img className="Feature-div__eat-icon" src={eatIcon} alt="" />
+          <p className="Feature-div__subtitle"> Kid's Corner </p>
           <img
-            className="Feature-div__kids-icon"
-            src={}
-            alt=""
-          />
-            <p className="Feature-div__feature">Kid's Corner</p>
-            <img
             className="Feature-div__arrow-icon"
-            src={}
-            alt=""
+            src={arrowDownBlue}
+            alt="arrow down"
           />
-        </div> */}
-        <button className="Feature-div__book-butt">Shop Now</button>
+        </div>
+        <button className="Feature-div__book-butt">BOOK NOW</button>
       </div>
     </>
   );
