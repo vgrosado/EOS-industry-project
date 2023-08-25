@@ -11,7 +11,12 @@ function HomePage() {
                 <video className='hero__video' autoPlay loop muted src={heroVid}></video>
             </div>
             <main className='booking'>
-                <div className='booking__details'></div>
+                <h1>Find A Cruise!</h1>
+                    <div className='booking__details'>
+                        <div className='booking__destination'>Destination</div>
+                        <div className='booking__port'>Choose A Port</div>
+                        <input className='booking__date' type="date" min="2023-08-1" max="2023-08-31" step="7" />
+                    </div>
             </main>
        </section>
 

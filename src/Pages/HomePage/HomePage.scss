@@ -5,3 +5,42 @@
     width: 100%;
   }
 }
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 65vw;
+  padding: 0rem 1rem;
+  align-items: center;
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__destination {
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: .25rem;
+    height: 25%;
+    width: 100%;
+  }
+
+  &__port {
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: .25rem;
+    height: 25%;
+    width: 100%;
+  }
+
+  &__date {
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: .25rem;
+    height: 25%;
+    width: 100%;
+    font-family: sans-serif;
+  }
+}
