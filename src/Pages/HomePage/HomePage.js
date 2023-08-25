@@ -3,6 +3,7 @@ import heroVid from "../../Assets/Video/AdventureoftheSeas2023CruiseShipTour.Mp4
 import Activities from "../../Components/Activities/Activities";
 import { useNavigate } from "react-router-dom";
 import Footer from "../../Assets/Images/FOOTER (1).png";
+import SignupForm from "../../Components/SignupForm/SignupForm";
 
 function HomePage() {
   let navigateTo = useNavigate();
@@ -60,6 +61,7 @@ function HomePage() {
         </div>
       </main>
       <Activities />
+      <SignupForm/>
       <img src={Footer} alt="footer" className="footer" />
     </section>
   );
