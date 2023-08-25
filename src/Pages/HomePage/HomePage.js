@@ -1,6 +1,8 @@
 import "../HomePage/HomePage.scss";
 import heroVid from "../../Assets/Video/AdventureoftheSeas2023CruiseShipTour.Mp4";
+import Activities from "../../Components/Activities/Activities";
 import { useNavigate } from "react-router-dom";
+import Footer from "../../Assets/Images/FOOTER (1).png";
 
 function HomePage() {
   let navigateTo = useNavigate();
@@ -8,7 +10,6 @@ function HomePage() {
   function handleNavigate() {
     navigateTo("/explore");
   }
-
   return (
     <section>
       <div className="hero">
@@ -58,6 +59,8 @@ function HomePage() {
           </button>
         </div>
       </main>
+      <Activities />
+      <img src={Footer} alt="footer" className="footer" />
     </section>
   );
 }
