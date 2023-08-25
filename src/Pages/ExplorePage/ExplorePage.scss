@@ -1,3 +1,8 @@
+
+*{
+    font-family: sans-serif;
+}
+
 .explore {
     background-image: url("../../Assets/Images/hero.png");
     background-size: cover;
@@ -17,6 +22,7 @@
         flex-direction: column;
         justify-content: space-between;
         padding: 1rem;
+        font-family: proxima;
     }
 
     &__header {
@@ -24,6 +30,7 @@
         flex-direction: column;
         height: 12%;
         justify-content: space-between;
+        font-family: proxima;
     }
 
     &__subheader {
@@ -31,6 +38,7 @@
         flex-direction: column;
         height: 12%;
         justify-content: space-between;
+        font-family: proxima;
     }
 
     &__ship {
@@ -38,6 +46,7 @@
         flex-direction: column;
         height: 12%;
         justify-content: space-between;
+        font-family: proxima;
     }
 
     &__price {
@@ -51,6 +60,7 @@
     &__title {
         margin: 0;
         font-size: .8rem;
+        
     }
 
     &__text {

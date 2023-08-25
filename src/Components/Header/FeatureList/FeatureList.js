@@ -1,7 +1,7 @@
 import "./FeatureList.scss";
 import arrowDownBlue from "../../../Icons/ArrowBlue.svg";
 import eatIcon from "../../../Icons/eatBlue.svg";
-import video from "../../../Assets/explore-video.mp4";
+import video from "../../../Assets/explore-video.MP4";
 import blueDrink from "../../../Icons/drinkBlue.svg";
 import playIcon from "../../../Icons/happyBlue.svg";
 import sleepIcon from "../../../Icons/BedBlue..svg";
